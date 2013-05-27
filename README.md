@@ -18,7 +18,7 @@ plataformas (Linux y/o Windows).
 #### Linux(Distro: Ubuntu)
 
 > 1. Abrir una terminal y ejecutar el siguiente comando:  
-´´´ bash
+``` bash
 a2enmod rewrite && sudo invoke-rc.d apache2 restart
-´´´ 
+``` 
 
