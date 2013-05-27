@@ -1,0 +1,176 @@
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url('/fonts/9k-RPmcnxYEPm8CNFsH2gg.woff') format('woff');
+}
+
+body{
+    background: url('/images/fondos/degrade.png') repeat;
+    font: 12px 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.fondo{
+    background-color: #eaeaea;
+}
+
+header{
+    background-color: gray;
+    border: 0px solid white;
+    border-radius: 10px 10px 0px 0px;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+}
+
+header div.logo{
+    background: black;
+    border: 0px solid white;
+    display: inline-block;
+    height: 50px;
+    margin: 5px 0px 0px 5px;
+    vertical-align: top;
+    width: 339px;
+}
+
+header div.close{
+    border: 0px solid white;
+    height: 15px;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    width: 37px;
+}
+
+header div.caja_usuario{
+    border: 0px solid white;
+    display: block;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    vertical-align: top;
+}
+
+header div.caja_usuario img{
+    margin-top: 2px;
+}
+
+header div.caja_usuario span{
+    font: 12px 'Lato', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+header div.caja_usuario label{
+    font: 12px 'Lato', sans-serif;
+    color: white;
+}
+
+header div.close img{
+    cursor: pointer;
+}
+
+footer{
+    display: block;
+    background-color: gray; 
+    border-radius: 0px 0px 10px 10px;
+    height: 45px;
+    margin-top: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+footer div.fizq{
+    border: 0px solid white;
+    height: 45px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width:350px;
+}
+
+footer div.fder{
+    border: 0px solid white;
+    height: 45px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width:150px;
+}
+
+footer label{
+    color: black;
+    display: block;
+    font: 11px 'Lato', sans-serif;
+    margin-top: 10px;
+    text-align: left;
+}
+
+footer div#xmenu{
+    display: block;
+}
+
+.trasparencia{
+    background:transparent !important;
+}
+
+#lbl_sucursal{
+    display: inline-block;
+}
+
+.bg_red{
+    background-color: red !important;
+}
+
+.bg_white{
+    background-color: white !important;
+}
+
+.bg_green{
+    background-color: green !important;
+}
+
+.label-01{
+    font: 12px 'Lato', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.label-02{
+    font: 12px 'Lato', sans-serif;
+    font-weight: normal;
+    color: blue;
+}
+
+.display-ib{
+    display: inline-block;
+}
+
+.p-cursor{
+    cursor: pointer;
+}
+
+.f-separator{
+    border-right: 1px solid black !important;
+    height: 100%;
+    width: 1px;
+}
+
+.t_right{
+    text-align: right;
+}
+
+.label01{
+    font: 12px 'Lato', sans-serif;
+}
+
+.field01{
+    font: 12px 'Lato', sans-serif;
+}

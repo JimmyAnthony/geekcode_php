@@ -1,0 +1,182 @@
+
+body{
+    background: url('/images/fondos/degrade.png') repeat;
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000;
+}
+
+header{
+    background-color: white;
+    border-radius: 5px 5px 0 0 ;
+    margin: 20px auto 0px auto;
+    max-width:960px;
+    max-height:80px;
+}
+header div#logo{
+    display: inline-block;
+    height: 50px;
+    margin: 10px 0 0 0;
+    vertical-align: top;
+    min-width:200px;
+}
+
+header nav{
+    display: inline-block;
+    margin-left: 60px;
+    padding: 40px 0 0 0;
+    vertical-align: bottom;
+    max-width: 500px;
+}
+
+header nav ul{
+    display: block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav ul li{
+    display: inline;
+    font-size: 12px;
+    list-style: none;
+    padding: 0px;
+    width: auto;
+}
+
+header nav ul li a{
+    color: black;
+    margin: 0px 4px 0px 4px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background-color: #b52025;
+    color: white;
+}
+
+header nav ul li a.current{
+    background-color: #b52025;
+    color: white;
+    margin: 0px 4px 0px 4px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+section div#slides{
+    background-color: white;
+    height: 304px;
+    margin: 0px auto;
+    max-width: 960px;
+    padding: 0px;
+}
+
+.slides_container{
+    display: inline-block !important;
+    overflow: hidden;
+    max-width: 905px;
+    padding: 0px;
+}
+
+.slides_container div.slide{
+    max-width: 900px;
+    min-height: 270px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#slides .prev{
+    display: inline-block;
+    margin-top: 115px;
+    vertical-align: top;
+}
+
+#slides .next{
+    display: inline-block;
+    margin-top: 115px;
+    vertical-align: top;
+}
+
+.pagination {
+    margin:5px auto 0;
+    width:100px;
+}
+
+.pagination li {
+    float:left;
+    margin:0 1px;
+    list-style:none;
+}
+
+.pagination li a {
+    display:block;
+    width:12px;
+    height:0;
+    padding-top:12px;
+    background-image:url('/images/slides/pagination.png');
+    background-position:0 0;
+    float:left;
+    overflow:hidden;
+}
+
+.pagination li.current a {
+    background-position:0 -12px;
+}
+
+.caption {
+	z-index:500px;
+	position:absolute;
+	left:0;
+	height:35px;
+	padding:5px 20px 5px 20px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:960px;
+	font-size:1em;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+
+div.border_separator{
+    background-color: white;
+    border-bottom: 1px dashed rgba(0,0,0,0.10);
+    margin: 0px auto;
+    max-width: 960px;
+}
+
+section#contenido{
+    background-color: white;
+    margin: 0px auto;
+    max-width: 960px;
+}
+
+#contenido div{
+    display: inline-block;
+    max-width: 700px;
+}
+
+#contenido div article{
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.border_shadow{
+    border: 1px solid rgba(0,0,0,0.10);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 6px 0px 8px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 6px 0px 8px rgba(0, 0, 0, 0.20);
+    -webkit-box-shadow: 6px 0px 8px rgba(0, 0, 0, 0.20);
+}
+
+section aside{
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    width: 230px;
+    margin: 10px 5px 10px 5px;
+}

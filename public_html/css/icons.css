@@ -1,0 +1,158 @@
+.btn_aceptar{    
+    background-image: url('/images/icon/1344226939_accept.png') !important;
+}
+
+.btn_salir{    
+    background-image: url('/images/icon/salir.png') !important;
+}
+
+.btn_nuevo{    
+    background-image: url('/images/icon/Note.png') !important;
+}
+
+.btn_editar{    
+    background-image: url('/images/icon/editar.png') !important;
+}
+
+.btn_grabar{    
+    background-image: url('/images/icon/save.png') !important;
+}
+
+.btn_cancelar{    
+    background-image: url('/images/icon/cancel.png') !important;
+}
+
+.btn_money{    
+    background-image: url('/images/icon/money.png') !important;
+}
+
+.btn_money_{    
+    background-image: url('/images/icon/money_.png') !important;
+}
+
+.btn_add{
+    background-image: url('/images/icon/add.png') !important;
+}
+
+.btn_delete{
+    background-image: url('/images/icon/delete.png') !important;
+}
+
+.btn_upload{
+    background-image: url('/images/icon/upload.png') !important;
+}
+
+.btn_stadium{
+    background-image: url('/images/icon/stadium.png') !important;
+}
+
+.btn_find{
+    background-image: url('/images/icon/find.png') !important;
+}
+
+.btn_business{
+    background-image: url('/images/icon/business.png') !important;
+}
+
+.btn_enviar{
+    background-image: url('/images/icon/1347752601_list-go.png') !important;
+}
+
+.btn_anexar{
+    background-image: url('/images/icon/1347752564_kde-add-folder-to-archive.png') !important;
+}
+
+.btn_recepcionar{
+    background-image: url('/images/icon/1347752670_utilities-file-archiver.png') !important;
+}
+
+.btn_anular{
+    background-image: url('/images/icon/anular.png') !important;
+}
+
+.btn_process{
+    background-image: url('/images/icon/Process-Accept.png') !important;
+}
+
+.btn_attach{
+    background-image: url('/images/icon/page_attach.png') !important;
+}
+
+.btn_go{
+    background-image: url('/images/icon/list-go.png') !important;
+}
+
+.btn_next{
+    background-image: url('/images/icon/Next.png') !important;
+}
+
+.btn_documentadd{
+    background-image: url('/images/icon/document-add.png') !important;
+}
+
+.btn_directory{
+    background-image: url('/images/icon/directory.png') !important;
+}
+
+.btn_pdf{
+    background-image: url('/images/icon/pdf.png') !important;
+}
+
+.btn_return{
+    background-image: url('/images/icon/return.png') !important;
+}
+
+.btn_entrar{
+    background-image: url('/images/icon/entrar.png') !important;
+}
+
+.btn_mastercard{
+    background-image: url('/images/pasarela/mc_accpt_030_gif.gif') !important;
+}
+
+.btn_logout_{
+    background-image: url('/images/icon/logout_.png') !important;
+}
+
+/**
+ *  Iconos para treepanel 
+ */
+.tree-generado {
+    background-image: url('/images/icon/generated.png') !important;
+}
+
+.tree-enviado {
+    background-image: url('/images/icon/send.png') !important;
+}
+
+.tree-recibido {
+    background-image: url('/images/icon/receive.png') !important;
+}
+
+.tree-devuelto {
+    background-image: url('/images/icon/return.png') !important;
+}
+
+.tree-importante {
+    background-image: url('/images/icon/important.png') !important;
+}
+
+.tree-anulados {
+    background-image: url('/images/icon/annular.png') !important;
+}
+.tree-tray_mail{
+    background-image: url('/images/icon/tray_mail.png') !important;   
+}
+.tree-mailbox {
+    background-image: url('/images/icon/1349063646_Mail.png') !important;
+}
+.tree-refres {
+    background-image: url('/images/icon/arrow_circle_double.png') !important; 
+}
+
+.btn_filearchive {
+    background-image: url('/images/icon/Card_file.png') !important;
+}
+.btn_folder-go{
+   background-image: url('/images/icon/go-back.png') !important;
+}

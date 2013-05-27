@@ -1,0 +1,183 @@
+
+@font-face {
+  font-family: 'Racing Sans One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Racing Sans One'), local('RacingSansOne-Regular'), url(1r3DpWaCiT7y3PD4KgkNyK3fkYX5z1QtDUdIWoaaD_k.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url('/fonts/9k-RPmcnxYEPm8CNFsH2gg.woff') format('woff');
+}
+
+body{
+    background: url(/images/front/bg_main.gif) repeat-x #005429;
+    font: 13px 'Lato', sans-serif;
+}
+
+#error-sistema-login{
+    background-color: #f6180b;
+    padding:4px;
+    color:#FFFFFF;
+    font-size:13px;
+    display:none;
+}
+
+#contenedor{
+    border: 13px solid rgba(0,35,22,0.3);
+    border: 13px solid hsla(112, 70%, 11%, 0.3);
+    border-radius: 18px;
+    height: 377px;
+    left: 50%;
+    margin-left: -255.5px;
+    margin-top: -182px;
+    top: 50%;
+    position: absolute;
+    width: 511px;
+    background-clip: padding-box;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+}
+
+header{
+    background-color: hsla(112, 70%, 11%, 0.88);
+    border: 0px solid white;
+    border-radius: 5px 5px 0 0;
+    height: 80px;
+    position: relative;
+}
+
+header .logo{
+    background: url('/images/front/LogoEmpresa.png') no-repeat;
+    border: 0px solid white;
+    height: 100px;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    position: absolute;
+    width: 75px;
+}
+
+header .title{
+    border: 0px solid white;
+    color: white;
+    display: inline-block;
+    font: 15px helvetica, arial;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 25px;
+    text-shadow: black 0.1em 0.1em 0.2em
+    vertical-align: middle;
+}
+
+section{
+    background-color: white;
+    border: 0px solid white;
+    border-radius: 0 0 5px 5px;
+    height: 294px;
+}
+
+section div.img{
+    border: 0px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 150px;
+    position: relative;
+    vertical-align: top;
+}
+
+section div.img div.logo{
+    background: url('/images/front/pres_img.gif') no-repeat;
+    border: 0px solid black;
+    display: block;
+    height: 97px;
+    vertical-align: bottom;
+    width: 126px; 
+    bottom: 50px;
+    left: 10px;
+    position: absolute;
+}
+
+section div.input{
+    border: 0px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 350px;
+    position: relative;
+    vertical-align: top;
+}
+
+section div.input div.datos_logueo{
+    border: 0px solid black;
+    margin-top: 5px;
+}
+
+section div.input div.datos_logueo div{
+    border: 0px solid black;
+    margin: 4px;
+}
+
+section div.input div.datos_logueo div label{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+}
+
+section div.input div.datos_logueo div input{
+    height: 25px;
+    display: inline-block;
+    width: 220px;
+    font-size: 14px;  
+    text-shadow: 0px 1px 0px #fff;  
+    outline: none;  
+    background: -webkit-gradient(linear, left top, left bottombottom, from(#bcbcbe), to(#ffffff));  
+    background: -moz-linear-gradient(top,  #bcbcbe,  #ffffff);  
+    border: 1px solid #717171;  
+    -webkit-box-shadow: 1px 1px 0px #efefef;  
+    -moz-box-shadow: 1px 1px 0px #efefef;  
+    box-shadow:  1px 1px 0px #efefef;  
+}
+
+section div.input div.datos_logueo div input:focus{
+    -webkit-box-shadow: 0px 0px 5px #007eff;  
+    -moz-box-shadow: 0px 0px 5px #007eff;  
+    box-shadow: 0px 0px 5px #007eff; 
+}
+
+section div.input div.captcha{
+    border: 0px solid black;
+    height: 135px;
+    padding-left: 15px;
+}
+
+section div.input .btn-ingresar{
+    display: block;
+    background: url('/images/front/btn_ingresar.png') no-repeat;
+    border: none;
+    height: 40px;
+    margin: 0px auto;
+    width: 140px;
+}
+
+footer{
+    position: relative;
+    margin-top: -50px;
+}
+
+footer label{
+    display: block;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 2px;
+    margin-left: 2px;
+
+}
+
+section div.registrate{
+    margin-left: 2px;
+}
+ 
