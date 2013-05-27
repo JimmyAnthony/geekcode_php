@@ -63,7 +63,8 @@ su ejecución, así que ahora vamos a ingresar al navegador web, y colocamos:
 #### Windows
 
 > * Configurar todo lo que se va mencionar a continuación:  
-``` bash
+
+``` apache
 # Activar en C:\AppServ\Apache2.2\conf\httpd.conf :
 LoadModule vhost_alias_module module/mod_vhost_alias.so
 # Activar en C:\AppServ\Apache2.2\conf\httpd.conf :
