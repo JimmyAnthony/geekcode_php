@@ -33,7 +33,6 @@ sudo vim /etc/apache2/httpd.conf
 
 Una vez ahí agregamos lo siguiente al final:  
 ``` apache
-::: apache
 # Acá podemos direccionar al puerto de nuestro agrado, pero verificar que no este ocupado por otro proceso
 NameVirtualHost *:8080
 Listen *:8080
