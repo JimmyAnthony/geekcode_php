@@ -26,6 +26,7 @@ plataformas (Linux y/o Windows).
 a2enmod rewrite && sudo invoke-rc.d apache2 restart
 ```  
 Con ese comando habilitamos el manejo de url limpias.  
+
 > 2. Modificamos el httpd.conf con el siguiente comando:  
 ``` bash
 sudo vim /etc/apache2/httpd.conf
@@ -33,7 +34,8 @@ sudo vim /etc/apache2/httpd.conf
 
 Una vez ahí agregamos lo siguiente al final:  
 ``` apache
-# Acá podemos direccionar al puerto de nuestro agrado, pero verificar que no este ocupado por otro proceso
+# Acá podemos direccionar al puerto de nuestro agrado, pero verificar que no este  
+# ocupado por otro proceso
 NameVirtualHost *:8080
 Listen *:8080
 <VirtualHost *:8080>
@@ -51,3 +53,8 @@ Listen *:8080
 ```  
 Grabamos los cambios `wq!`, y luego reiniciamos el servidor web, en este caso apache  
 `sudo /etc/init.d/apache2 restart`  
+
+> 3. Si todo ha marchado a la normalidad hasta ahora, el proyecto estaría listo para  
+su ejecución, así que ahora vamos a ingresar al navegador web, y colocamos:  
+`http:\\localhost:8080\` y deveriamos de ver la siguiente pantalla:  
+![Sin titulo](screen.png)
