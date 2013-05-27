@@ -93,8 +93,8 @@ su ejecución, así que ahora vamos a ingresar al navegador web, y colocamos:
 Créditos
 --------
 
-* [Twitter](https://twitter.com/remicioluis)
-* [Facebook](https://www.facebook.com/luis.remicioobregon)  
+* [Twitter](https://twitter.com/remicioluis) (@remicioluis)
+* [Facebook](https://www.facebook.com/luis.remicioobregon) (Luis Remicio)  
 
 Agradecimientos
 ---------------
