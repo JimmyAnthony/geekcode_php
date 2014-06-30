@@ -1,14 +1,10 @@
 <?php
 
-/*
- * Desarrollado por: Luis Remicio Obregon
- * Twitter: @remicioluis
- * Gmail: remicioluis@gmail.com
- *--------------------------------------
- * Fecha de desarrollo: 23/05/2013
- * Basado en esquema MVC
- * -------------------------------------
- * Capa de datos
+/**
+ * Geekode php (http://geekode.net/)
+ * @link	https://github.com/remicioluis/geekcode_php
+ * @author	Luis Remicio @remicioluis (https://twitter.com/remicioluis)
+ * @version	2.0
  */
 
 class indexModels extends Adodb {

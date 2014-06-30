@@ -11,10 +11,17 @@
  * Carga dinamica de librerias Zend Framework
  */
 
-set_include_path(
+/*set_include_path(
 	'.' . PATH_SEPARATOR . realpath(dirname(__FILE__))
     .PATH_SEPARATOR . get_include_path()
 );
 
 require 'Zend/Loader/Autoloader.php';
-Zend_Loader_Autoloader::getInstance();
+Zend_Loader_Autoloader::getInstance();*/
+
+require_once 'Zend/Loader/StandardAutoloader.php';
+$autoloader = new Zend\Loader\StandardAutoloader(array(
+    'autoregister_zf' => true,
+    'fallback_autoloader' => true,
+));
+$autoloader->register();

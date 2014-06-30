@@ -25,7 +25,6 @@ class AppController{
 	}
 
 	function view($path = '', $params = array()){
-		$p = new Zend_Registry($params);
 		require APPPATH_VIEW . $path;
 	}
 
